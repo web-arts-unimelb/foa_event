@@ -1,0 +1,8 @@
+<?php
+/**
+ * @file
+ * Code for the foa_event feature.
+ */
+
+include_once 'foa_event.features.inc';
+include_once 'foa_event.module.inc';

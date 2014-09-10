@@ -1,0 +1,57 @@
+/* For IE height */
+.foa-event {
+	height: auto !important;
+  height: 68px;
+  min-height: 68px;
+
+	/* http://www.quirksmode.org/css/clearing.html */
+	width: 100%;
+	overflow: hidden;
+}
+
+/* Firefox only */
+.foa-event, x:-moz-any-link, x:default {
+	margin-bottom: 10px;
+}
+
+.foa-event .time {
+	width: 36px;
+	float: left;
+
+	background-color: #dddddd;
+  margin-right: 5px;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.foa-event .time .day {
+	font-size: 16px;
+  font-weight: bold;
+}
+
+.foa-event .time .month-year {
+	background-color: #003366;
+  color: white;
+  display: block;
+  font-size: 0.7em;
+  border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+}
+
+.foa-event .info {
+	width: 550px; 
+	float: left;
+}
+
+
+/* Event listing filter submit button */
+/* Explict css rule can find the element */
+.views-exposed-form .views-exposed-widget .foa-event-listing-submit {
+	margin-top: 2.2em !important;
+}
