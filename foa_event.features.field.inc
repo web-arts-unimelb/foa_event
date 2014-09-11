@@ -58,7 +58,7 @@ function foa_event_field_default_fields() {
             'field_formatter_class' => '',
           ),
           'type' => 'text_default',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'teaser' => array(
           'label' => 'hidden',
@@ -134,7 +134,7 @@ function foa_event_field_default_fields() {
             'field_formatter_class' => '',
           ),
           'type' => 'text_default',
-          'weight' => 21,
+          'weight' => '21',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -225,13 +225,10 @@ function foa_event_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
-          'module' => 'text',
-          'settings' => array(
-            'field_formatter_class' => '',
-          ),
-          'type' => 'text_default',
-          'weight' => 11,
+          'label' => 'hidden',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '11',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -322,13 +319,10 @@ function foa_event_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
-          'module' => 'text',
-          'settings' => array(
-            'field_formatter_class' => '',
-          ),
-          'type' => 'text_default',
-          'weight' => 1,
+          'label' => 'hidden',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '1',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -425,7 +419,7 @@ function foa_event_field_default_fields() {
             'field_formatter_class' => '',
           ),
           'type' => 'text_default',
-          'weight' => 23,
+          'weight' => '23',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -522,7 +516,7 @@ function foa_event_field_default_fields() {
             'field_formatter_class' => '',
           ),
           'type' => 'text_default',
-          'weight' => 20,
+          'weight' => '20',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -613,13 +607,10 @@ function foa_event_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
-          'module' => 'list',
-          'settings' => array(
-            'field_formatter_class' => '',
-          ),
-          'type' => 'list_default',
-          'weight' => 15,
+          'label' => 'hidden',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '15',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -681,13 +672,10 @@ function foa_event_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
-          'module' => 'list',
-          'settings' => array(
-            'field_formatter_class' => '',
-          ),
-          'type' => 'list_default',
-          'weight' => 10,
+          'label' => 'hidden',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '10',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -753,13 +741,10 @@ function foa_event_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
-          'module' => 'list',
-          'settings' => array(
-            'field_formatter_class' => '',
-          ),
-          'type' => 'list_default',
-          'weight' => 12,
+          'label' => 'hidden',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '12',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -821,13 +806,10 @@ function foa_event_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
-          'module' => 'list',
-          'settings' => array(
-            'field_formatter_class' => '',
-          ),
-          'type' => 'list_default',
-          'weight' => 14,
+          'label' => 'hidden',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '14',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -895,7 +877,7 @@ function foa_event_field_default_fields() {
             'field_formatter_class' => '',
           ),
           'type' => 'text_default',
-          'weight' => 26,
+          'weight' => '26',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -993,7 +975,7 @@ function foa_event_field_default_fields() {
             'field_formatter_class' => '',
           ),
           'type' => 'link_default',
-          'weight' => 24,
+          'weight' => '24',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -1080,12 +1062,9 @@ function foa_event_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'taxonomy',
-          'settings' => array(
-            'field_formatter_class' => '',
-          ),
-          'type' => 'taxonomy_term_reference_link',
-          'weight' => 25,
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '25',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -1147,7 +1126,7 @@ function foa_event_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'date',
           'settings' => array(
             'field_formatter_class' => '',
@@ -1158,7 +1137,7 @@ function foa_event_field_default_fields() {
             'multiple_to' => '',
           ),
           'type' => 'date_default',
-          'weight' => 13,
+          'weight' => '13',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -1231,13 +1210,10 @@ function foa_event_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
-          'module' => 'text',
-          'settings' => array(
-            'field_formatter_class' => '',
-          ),
-          'type' => 'text_default',
-          'weight' => 2,
+          'label' => 'hidden',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '2',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -1329,12 +1305,9 @@ function foa_event_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'text',
-          'settings' => array(
-            'field_formatter_class' => '',
-          ),
-          'type' => 'text_default',
-          'weight' => 22,
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '22',
         ),
         'teaser' => array(
           'label' => 'above',

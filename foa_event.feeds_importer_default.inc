@@ -204,7 +204,7 @@ function foa_event_feeds_importer_default() {
             'unique' => FALSE,
           ),
         ),
-        'update_existing' => '1',
+        'update_existing' => '2',
         'update_non_existent' => 'delete',
         'input_format' => 'full_html',
         'skip_hash_check' => 0,
@@ -213,10 +213,10 @@ function foa_event_feeds_importer_default() {
     ),
     'content_type' => '',
     'update' => 0,
-    'import_period' => '-1',
+    'import_period' => '0',
     'expire_period' => 3600,
-    'import_on_create' => 1,
-    'process_in_background' => 0,
+    'import_on_create' => 0,
+    'process_in_background' => 1,
   );
   $export['foa_event_importer'] = $feeds_importer;
 
